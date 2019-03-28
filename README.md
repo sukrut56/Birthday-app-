@@ -12,7 +12,7 @@ Depending on the total number of pictures, the loading time for the app may vary
 
 Here are some Youtube video links for your references: 
 
-	•	Uploading an audio file: https://www.youtube.com/watch?v=C_Ka7cKwXW0
+	•	Uploading an audio file: <a href="https://www.youtube.com/watch?v=C_Ka7cKwXW0" >
 
 	•	Creating a landscape layout: https://www.youtube.com/watch?v=KJGKj078Qag
 
