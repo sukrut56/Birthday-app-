@@ -4,6 +4,10 @@ Android App can be created using this code. Depending on the screen resolution, 
 The app includes a main screen showing the name of the person and a picture of that person.
 Once the button is pressed, you'll be directed to a message window where you'll get two options to view the picture gallery or visit the songs app. 
 
+Image to be stored in res/drawable folder only. 
+Audio file (.mp3) to be stored in a raw file. 
+Tutorials are given below. 
+
 Depending on the total number of pictures, the loading time for the app may vary and the app size may also vary accordingly. 
 
 Here are some Youtube video links for your references: 
