@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="0dp"
+            android:layout_height="476dp"
+            android:contentDescription="@string/app_name"
+            android:padding="5sp"
+            android:scaleType="centerInside"
+            android:src="@drawable/abc"
+            app:layout_constraintBottom_toTopOf="@+id/Name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/wish"
+            app:layout_constraintVertical_bias="0.6" />
+
+        <TextView
+            android:id="@+id/wish"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#2e7d32"
+            android:paddingStart="3.5sp"
+            android:paddingEnd="0dp"
+            android:text="Happy Birthday "
+            android:textColor="@android:color/white"
+            android:textSize="70sp"
+            app:layout_constraintBottom_toTopOf="@+id/image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#2e7d32"
+            android:gravity="center"
+            android:text="Namew of the person"
+            android:textColor="@android:color/white"
+            android:textSize="70sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="   Tap to continue >>    "
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            app:layout_constraintBottom_toTopOf="@+id/Name"
+            app:layout_constraintEnd_toStartOf="@+id/image"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toEndOf="@+id/image"
+            app:layout_constraintTop_toBottomOf="@+id/image"
+            app:layout_constraintVertical_bias="0.793" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>
